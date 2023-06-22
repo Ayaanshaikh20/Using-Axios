@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Personal To-Do list</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="input_container">
+        <h1>My To Do List</h1>
+        <input id="inputBox" type="text" placeholder="Add a new to do.." />
+        <input id="addButton" type="button" value="Add" />
+        <input id="GetButton" type="button" value="Get" />
+      </div>
+      <ul class="todolist" id="todoList">
+        <!-- <li>Task1</li>
+            <li>Task2</li>
+            <li>Task3</li> -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>

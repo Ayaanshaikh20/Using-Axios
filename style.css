@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(138, 255, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 255, 246, 1) 2%,
+    rgba(165, 242, 244, 1) 47%,
+    rgba(232, 232, 232, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.input_container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.input_container input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-block: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input_container input[type="text"] {
+  width: 70%;
+}
+
+.input_container input[type="button"] {
+  background-color: #ff9100;
+  font-weight: 700;
+  margin-left: 15px;
+  padding: 12px 25px;
+}
+
+.input_container input[type="button"]:hover {
+  background-color: #ac6200;
+}
+
+ul {
+  width: 100%;
+  max-width: 450px;
+  /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0.125px solid #a19f9f;
+  margin-block-end: 12px;
+  padding: 6px 12px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 8px 5px 0px black;
+  border: none;
+}
+
+ul li p {
+  flex-grow: 1;
+  padding: 2px;
+}
+
+.delete {
+  margin-right: 15px;
+  padding: 2px;
+  background-color: red;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.Edit {
+  margin-right: 2px;
+  padding: 2px;
+  width: 40px;
+  background-color: green;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.completed {
+  margin-left: 15px;
+  padding: 2px;
+  background-color: orange;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.forCompleted p{
+  text-decoration: line-through;
+}
+
+#GetButton{
+  display: inline;
+  flex-direction: row;
+}
